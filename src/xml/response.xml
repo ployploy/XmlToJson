@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetCountriesAvailableResponse xmlns="http://www.holidaywebservice.com/HolidayService_v2/">
+            <GetCountriesAvailableResult>
+                <CountryCode>
+                    <Code>Canada</Code>
+                    <Description>Canada</Description>
+                </CountryCode>
+                <CountryCode>
+                    <Code>GreatBritain</Code>
+                    <Description>Great Britain and Wales</Description>
+                </CountryCode>
+                <CountryCode>
+                    <Code>IrelandNorthern</Code>
+                    <Description>Northern Ireland</Description>
+                </CountryCode>
+                <CountryCode>
+                    <Code>IrelandRepublicOf</Code>
+                    <Description>Republic of Ireland</Description>
+                </CountryCode>
+                <CountryCode>
+                    <Code>Scotland</Code>
+                    <Description>Scotland</Description>
+                </CountryCode>
+                <CountryCode>
+                    <Code>UnitedStates</Code>
+                    <Description>United States</Description>
+                </CountryCode>
+            </GetCountriesAvailableResult>
+        </GetCountriesAvailableResponse>
+    </soap:Body>
+</soap:Envelope>
