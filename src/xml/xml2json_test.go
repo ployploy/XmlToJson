@@ -7,7 +7,7 @@ import (
 )
 
 type GetCountriesAvailable struct {
-	CountryCode []CountryCode `xml: Body>GetCountriesAvailableResponse>GetCountriesAvailableResult>CountryCode Envelop`
+	CountryCode []CountryCode `xml:"Body>GetCountriesAvailableResponse>GetCountriesAvailableResult>CountryCode"`
 }
 
 type CountryCode struct {
