@@ -80,3 +80,4 @@ func Test_ToJson_Should_Be_Json(t *testing.T) {
 		t.Errorf("Expect %s but it got %s", expected, actual)
 	}
 }
+//ทำเอาเสื้อเฉยๆ
